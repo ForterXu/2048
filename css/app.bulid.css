@@ -27,7 +27,7 @@ a {
 
 .header {
   width: 100%;
-  height: 10em;
+  height: 8em;
   padding: 1em 1em 1em 2em;
   margin-bottom: 2em;
   position: relative;
@@ -90,7 +90,6 @@ a {
     color: #746b62;
     display: inline-block;
     width: 40%;
-    height: 3em;
     font-size: 1.5em;
     font-weight: 400;
     text-align: center; }
