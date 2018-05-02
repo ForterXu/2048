@@ -7,7 +7,10 @@
   touch-action: none; }
 
 html {
-  height: 100%; }
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0; }
   html body {
     font-size: 14px;
     font-family: "consola", "\5FAE\8F6F\96C5\9ED1";
@@ -76,7 +79,7 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 5em;
+  height: 3em;
   display: flex;
   display: -webkit-flex;
   flex-direction: row;
