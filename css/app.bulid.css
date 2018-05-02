@@ -1,7 +1,9 @@
 @charset "UTF-8";
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  max-width: 450px; }
 
 html {
   height: 100%; }
@@ -61,7 +63,7 @@ a {
     position: absolute;
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4em;
+    font-size: 2em;
     font-weight: bold;
     display: flex;
     display: -webkit-flex;
