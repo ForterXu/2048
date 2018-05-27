@@ -8,8 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     <meta content="telephone=no" name="format-detection">
     <link rel="manifest" href="./static/manifest.json">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png" />
+    <link rel="apple-touch-icon" sizes="58x58" href="android-touch-icon.png" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<link href="css/app.bulid.css" rel="stylesheet"></head>
+    <link href="css/app.bulid.css" rel="stylesheet">
+</head>
 
 <body>
     <header class="header">
@@ -27,12 +33,14 @@
         <a href="#" id="start">START</a>
         <a href="#" id="save">SAVE</a>
     </footer>
-<script type="text/javascript" src="js/app.bulid.js"></script></body>
+    <script type="text/javascript" src="js/app.bulid.js"></script>
+</body>
 <script>
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('./service-worker.js');
-      });
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('./service-worker.js');
+        });
     }
-  </script>
+</script>
+
 </html>
