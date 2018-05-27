@@ -1,0 +1,32 @@
+{
+    "name": "2048",
+    "short_name": "2048",
+    "start_url": "/2048/",
+    "icons": [
+        {
+          "src": "./2048-76x76.png",
+          "type": "image/png",
+          "sizes": "76x76"
+        },
+        {
+          "src": "./2048-120x120.png",
+          "type": "image/png",
+          "sizes": "120x120"
+        },
+        {
+          "src": "./2048-152x152.png",
+          "type": "image/png",
+          "sizes": "152x152"
+        },
+        {
+          "src": "./2048-180x180.png",
+          "type": "image/png",
+          "sizes": "180x180"
+        }
+      ],
+    "display": "standalone",
+    "background_color": "#eee",
+    "description": "一个不太难的2048",
+    "orientation": "portrair-primary",
+    "theme": "#746b62"
+}

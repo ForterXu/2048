@@ -7,7 +7,7 @@
     <title>2048</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     <meta content="telephone=no" name="format-detection">
-    <link rel="manifest" href="./mainifest.json">
+    <link rel="manifest" href="./static/manifest.json">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <link href="css/app.bulid.css" rel="stylesheet"></head>
 
@@ -28,5 +28,11 @@
         <a href="#" id="save">SAVE</a>
     </footer>
 <script type="text/javascript" src="js/app.bulid.js"></script></body>
-
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('./service-worker.js');
+      });
+    }
+  </script>
 </html>
