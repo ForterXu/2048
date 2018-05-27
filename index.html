@@ -7,6 +7,8 @@
     <title>2048</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     <meta content="telephone=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#bdaca0">
+    <meta name="theme-color" content="#bdaca0">
     <link rel="manifest" href="./static/manifest.json">
     <link rel="apple-touch-icon" sizes="76x76" href="./static/apple-touch-icon-76x76.png" />
     <link rel="apple-touch-icon" sizes="120x120" href="./static/apple-touch-icon-120x120.png" />
@@ -14,8 +16,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./static/apple-touch-icon-180x180.png" />
     <link rel="apple-touch-icon" sizes="58x58" href="./static/android-touch-icon.png" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <link href="css/app.bulid.css" rel="stylesheet">
-</head>
+<link href="css/app.bulid.css" rel="stylesheet"></head>
 
 <body>
     <header class="header">
@@ -33,14 +34,12 @@
         <a href="#" id="start">START</a>
         <a href="#" id="save">SAVE</a>
     </footer>
-    <script type="text/javascript" src="js/app.bulid.js"></script>
-</body>
+<script type="text/javascript" src="js/app.bulid.js"></script></body>
 <script>
     if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-            navigator.serviceWorker.register('./service-worker.js');
-        });
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('./service-worker.js');
+      });
     }
-</script>
-
+  </script>
 </html>

@@ -27,6 +27,6 @@
     "display": "standalone",
     "background_color": "#eee",
     "description": "一个不太难的2048",
-    "orientation": "portrair-primary",
-    "theme": "#746b62"
+    "theme": "#746b62",
+    "orientation": "portrait"
 }
